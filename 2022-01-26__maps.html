@@ -1345,7 +1345,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
 
     <div class="chatlog">
         <div class="chatlog__message-group">
-    <div id="chatlog__message-container-936045817582743632" class="chatlog__message-container" data-message-id="936045817582743632">
+    <div id="chatlog__message-container-936045730257309727" class="chatlog__message-container" data-message-id="936045730257309727">
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
@@ -1359,14 +1359,38 @@ If you have any issues or suggestions - open an issue on the Github Repository o
                     <span class="chatlog__timestamp" data-timestamp="Wednesday, 26 January 2022 11:51 PM">26-01-2022 23:51</span>
                 </div>
 
-                <div class="chatlog__content chatlog__markdown" data-message-id="936045817582743632" id="message-936045817582743632">
-                    <span class="chatlog__markdown-preserve"><span class="pre pre-inline">!map -attach DM -bg https://i.redd.it/brpro4hm1ts21.jpg -mapsize 20x20 -options c75</span></span>
+                <div class="chatlog__content chatlog__markdown" data-message-id="936045730257309727" id="message-936045730257309727">
+                    <span class="chatlog__markdown-preserve"><strong>Ready-Made Maps</strong> 
+This is a list of maps that are ready to be dropped into a game. 
+Please add to it when you get things ready, so that we can all share the resources. 
+ 
+I have two requests. 
+1) Please use the image produced by the <span class="pre pre-inline">!map</span> alias, not the source image. It&#x27;s helpful to have the scale when choosing a map to use, and the final image does that. 
+2) If the map has a built-in grid, please align it with the alias&#x27; grid. If someone is taking a map out of here then the assumption is that the work to align &amp; resize it has already been done. 
+ 
+ 
+Here&#x27;s the process to resize things for <span class="pre pre-inline">!map</span>: 
+<div class="pre pre--multiline nohighlight">1) Find the resolution of the image. 
+ 1b) Find the number of squares. 
+ 1c) Find the resolution of each square (c). 
+2) Find the scaling factor 
+ Goal c can be between 20 &amp; 100. 
+ (Goal c/Actual c) = Scaling Factor 
+3) Determine your goal resolution. Multiply the image resolution by the scaling factor. If it gives you a weird number, then you may want to choose a new scaling factor. 
+ Y Resolution * Scaling Factor = New Y Resolution 
+4) Find -mapsize (XxY) by dividing the resolution by c. 
+5) Upload the image to picresize.com, or copy the image address. Then use &quot;Custom Scaling&quot; to change the Y resolution to the new Y resolution. 
+ 5b) Set the maximum file size for the resulting jpg as 1024, 
+ since any higher will break !map. 
+6) Download the resulting image and upload it to imgur. 
+7) Copy the image address and use -bg &lt;url&gt; to apply it. 
+8) Use the final command to put everything together. 
+ !map -bg &lt;url&gt; -mapsize &lt;XxY&gt; -options &lt;c#&gt; </div> 
+The final version of the command for this map looked like this. 
+<span class="pre pre-inline">!map -bg https://i.imgur.com/cv4PgBo.jpg -mapsize 25x50 -options c35d</span></span>
+<span class="chatlog__reference-edited-timestamp" title="Friday, 11 February 2022 05:41 PM">(edited)</span>
 
-
-                    <div class=chatlog__attachment>
-    <a href=https://media.discordapp.net/attachments/936044046948925440/936045817272360960/2_-_Swamp_Road.png><img class=chatlog__attachment-thumbnail src=https://media.discordapp.net/attachments/936044046948925440/936045817272360960/2_-_Swamp_Road.png></a>
-</div>
-
+                    
 
                     
 
@@ -1377,7 +1401,33 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             </div>
         </div>
     </div>
-            <div id="chatlog__message-container-936045849883074621" class="chatlog__message-container" data-message-id="936045849883074621">
+            <div id="chatlog__message-container-936045817582743632" class="chatlog__message-container" data-message-id="936045817582743632">
+                    <div class="chatlog__message">
+
+                        <div class="chatlog__message-aside">
+                            <div class="chatlog__short-timestamp" title="Wednesday, 26 January 2022 11:51 PM">PM</div>
+                        </div>
+
+                        <div class="chatlog__message-primary">
+                            <div class="chatlog__content chatlog__markdown" data-message-id="936045817582743632" id="message-936045817582743632">
+                                <span class="chatlog__markdown-preserve"><span class="pre pre-inline">!map -attach DM -bg https://i.redd.it/brpro4hm1ts21.jpg -mapsize 20x20 -options c75</span></span>
+
+
+                                <div class=chatlog__attachment>
+    <a href=https://media.discordapp.net/attachments/936044046948925440/936045817272360960/2_-_Swamp_Road.png><img class=chatlog__attachment-thumbnail src=https://media.discordapp.net/attachments/936044046948925440/936045817272360960/2_-_Swamp_Road.png></a>
+</div>
+
+
+                                
+
+                                
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+            </div>            <div id="chatlog__message-container-936045849883074621" class="chatlog__message-container" data-message-id="936045849883074621">
                     <div class="chatlog__message">
 
                         <div class="chatlog__message-aside">
@@ -1647,7 +1697,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  1 February 2022 05:41 AM">01-02-2022 05:41</span>
                 </div>
@@ -1845,7 +1895,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 01:18 AM">25-02-2022 01:18</span>
                 </div>
@@ -1876,7 +1926,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 01:25 AM">25-02-2022 01:25</span>
                 </div>
@@ -1939,7 +1989,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 08:31 PM">25-02-2022 20:31</span>
                 </div>
@@ -2341,7 +2391,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 09:15 PM">25-02-2022 21:15</span>
                 </div>
@@ -2427,7 +2477,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 09:20 PM">25-02-2022 21:20</span>
                 </div>
@@ -2513,7 +2563,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 09:29 PM">25-02-2022 21:29</span>
                 </div>
@@ -2601,7 +2651,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 09:50 PM">25-02-2022 21:50</span>
                 </div>
@@ -2689,7 +2739,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 10:12 PM">25-02-2022 22:12</span>
                 </div>
@@ -2775,7 +2825,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 10:26 PM">25-02-2022 22:26</span>
                 </div>
@@ -2861,7 +2911,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 10:58 PM">25-02-2022 22:58</span>
                 </div>
@@ -2947,7 +2997,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 11:15 PM">25-02-2022 23:15</span>
                 </div>
@@ -3033,7 +3083,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 February 2022 11:56 PM">25-02-2022 23:56</span>
                 </div>
@@ -3119,7 +3169,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Sunday, 27 February 2022 03:00 AM">27-02-2022 03:00</span>
                 </div>
@@ -3284,7 +3334,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Nixkev#5015" data-user-id="340987741393387520" style="color: #007eff;">(Nix) Azrielia⁵ Strahd⁶  -5<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Nixkev#5015" data-user-id="340987741393387520" style="color: #007eff;">(Nix) Azrielia⁵ Strahd⁶  -4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Sunday, 27 February 2022 02:54 PM">27-02-2022 14:54</span>
                 </div>
@@ -3343,7 +3393,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Nixkev#5015" data-user-id="340987741393387520" style="color: #007eff;">(Nix) Azrielia⁵ Strahd⁶  -5<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Nixkev#5015" data-user-id="340987741393387520" style="color: #007eff;">(Nix) Azrielia⁵ Strahd⁶  -4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Monday, 28 February 2022 02:33 AM">28-02-2022 02:33</span>
                 </div>
@@ -3393,7 +3443,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/dab201100b94cc5c9a9f7912dd2dcbdd.png?size=1024"  data-user-id="325496160775045122" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/3feb8311bfb4045ae6fc97f3e4c27b25.png?size=1024"  data-user-id="325496160775045122" />
             </div>
             <div class="chatlog__message-primary">
                 
@@ -3463,7 +3513,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Wednesday,  2 March 2022 08:36 PM">02-03-2022 20:36</span>
                 </div>
@@ -3631,7 +3681,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday,  4 March 2022 05:30 AM">04-03-2022 05:30</span>
                 </div>
@@ -3717,7 +3767,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday,  4 March 2022 02:12 PM">04-03-2022 14:12</span>
                 </div>
@@ -3806,7 +3856,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday,  4 March 2022 03:21 PM">04-03-2022 15:21</span>
                 </div>
@@ -3861,7 +3911,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday,  4 March 2022 03:32 PM">04-03-2022 15:32</span>
                 </div>
@@ -4002,7 +4052,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday,  4 March 2022 09:07 PM">04-03-2022 21:07</span>
                 </div>
@@ -4161,7 +4211,7 @@ If you have any issues or suggestions - open an issue on the Github Repository o
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Wednesday,  9 March 2022 06:00 PM">09-03-2022 18:00</span>
                 </div>
@@ -4250,7 +4300,7 @@ https://cdn.discordapp.com/attachments/905612184019677224/951176887663751188/blu
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Wednesday,  9 March 2022 11:40 PM">09-03-2022 23:40</span>
                 </div>
@@ -4280,7 +4330,7 @@ https://cdn.discordapp.com/attachments/905612184019677224/951176887663751188/blu
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 10 March 2022 02:14 PM">10-03-2022 14:14</span>
                 </div>
@@ -4376,7 +4426,7 @@ https://cdn.discordapp.com/attachments/905612184019677224/951176887663751188/blu
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 11 March 2022 07:56 PM">11-03-2022 19:56</span>
                 </div>
@@ -4462,7 +4512,7 @@ https://cdn.discordapp.com/attachments/905612184019677224/951176887663751188/blu
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday, 12 March 2022 10:50 PM">12-03-2022 22:50</span>
                 </div>
@@ -4547,7 +4597,7 @@ https://cdn.discordapp.com/attachments/905612184019677224/951176887663751188/blu
 
                         <div class="chatlog__message-primary">
                             <div class="chatlog__content chatlog__markdown" data-message-id="952338002498158642" id="message-952338002498158642">
-                                <span class="chatlog__markdown-preserve"><span class="mention" title="138740791077109760">@Miss Spectra</span> <span class="mention" title="490629245245063194">@Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6</span> <span class="mention" title="278245170208571394">@BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4</span> when you post premade maps can you please post the gridded final version <img class="emoji emoji--small" src="https://twemoji.maxcdn.com/v/latest/72x72/1f642.png" alt="🙂" title="Slightly Smiling Face" aria-label="Emoji: Slightly Smiling Face"> Helps people see the scale from the preview</span>
+                                <span class="chatlog__markdown-preserve"><span class="mention" title="138740791077109760">@Miss Spectra</span> <span class="mention" title="490629245245063194">@Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6</span> <span class="mention" title="278245170208571394">@BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4</span> when you post premade maps can you please post the gridded final version <img class="emoji emoji--small" src="https://twemoji.maxcdn.com/v/latest/72x72/1f642.png" alt="🙂" title="Slightly Smiling Face" aria-label="Emoji: Slightly Smiling Face"> Helps people see the scale from the preview</span>
 
 
                                 
@@ -4571,7 +4621,7 @@ https://cdn.discordapp.com/attachments/905612184019677224/951176887663751188/blu
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Monday, 14 March 2022 10:35 PM">14-03-2022 22:35</span>
                 </div>
@@ -4652,12 +4702,12 @@ https://cdn.discordapp.com/attachments/905612184019677224/951176887663751188/blu
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Wednesday, 16 March 2022 01:44 PM">16-03-2022 13:44</span>
                 </div>
@@ -4718,12 +4768,12 @@ Zoom in on bridge?
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 18 March 2022 09:47 PM">18-03-2022 21:47</span>
                 </div>
@@ -4761,7 +4811,7 @@ Original Size (fewer squares): <span class="pre pre-inline">!map -mapsize 18x18 
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday, 19 March 2022 08:34 PM">19-03-2022 20:34</span>
                 </div>
@@ -4842,12 +4892,12 @@ Original Size (fewer squares): <span class="pre pre-inline">!map -mapsize 18x18 
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 25 March 2022 03:45 PM">25-03-2022 15:45</span>
                 </div>
@@ -4889,12 +4939,12 @@ Four variations. Gif preview is just rotating between them.
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 29 March 2022 06:09 PM">29-03-2022 18:09</span>
                 </div>
@@ -4937,7 +4987,7 @@ Four variations. Gif preview is just rotating between them.
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 29 March 2022 06:12 PM">29-03-2022 18:12</span>
                 </div>
@@ -4962,12 +5012,12 @@ Four variations. Gif preview is just rotating between them.
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 29 March 2022 06:12 PM">29-03-2022 18:12</span>
                 </div>
@@ -5020,7 +5070,7 @@ Four variations. Gif preview is just rotating between them.
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 29 March 2022 06:13 PM">29-03-2022 18:13</span>
                 </div>
@@ -5045,12 +5095,12 @@ Four variations. Gif preview is just rotating between them.
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 29 March 2022 06:13 PM">29-03-2022 18:13</span>
                 </div>
@@ -5144,7 +5194,7 @@ Four variations. Gif preview is just rotating between them.
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday,  1 April 2022 02:02 AM">01-04-2022 02:02</span>
                 </div>
@@ -5174,7 +5224,7 @@ Four variations. Gif preview is just rotating between them.
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday,  1 April 2022 02:02 AM">01-04-2022 02:02</span>
                 </div>
@@ -5204,7 +5254,7 @@ Four variations. Gif preview is just rotating between them.
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday,  7 April 2022 03:00 AM">07-04-2022 03:00</span>
                 </div>
@@ -5285,12 +5335,12 @@ Four variations. Gif preview is just rotating between them.
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 12 April 2022 01:41 PM">12-04-2022 13:41</span>
                 </div>
@@ -5330,7 +5380,7 @@ Or alternatively, to make 1/2 size:
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 12 April 2022 07:54 PM">12-04-2022 19:54</span>
                 </div>
@@ -5413,13 +5463,13 @@ Was originally too big so I had to scale it down, means that the squares are <em
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 <div class='chatlog__followup-symbol'></div>
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 <div class="chatlog__followup">
         <img class="chatlog__followup-avatar" src="https://cdn.discordapp.com/avatars/490629245245063194/125fafdf2c24d22d73a6d0f9a07dae21.png?size=1024" alt="Avatar" loading="lazy" data-user-id="490629245245063194">
         
-        <div class="chatlog__followup-author" style="color: #007eff;" title="Ricapath#9411" data-user-id="490629245245063194">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6</div>
+        <div class="chatlog__followup-author" style="color: #007eff;" title="Ricapath#9411" data-user-id="490629245245063194">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6</div>
         <div class="chatlog__followup-content">
             <span class="chatlog__reference-link" onclick="scrollToMessage(event, '963527562187902978')">
                     <em><a href="https://images-ext-2.discordapp.net/external/m4I6ErOVAmLxVm1FYYvmizbhRu-JfoqJWwc5-LtpQUE/%3Fa%3D1%26bg%3Dhttps%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F953739118406410240%2F963525454747283476%2Funknown.png/http/otfbm.io/22x25/%40c70d/S22Mb-Fritz?width=595&height=669">https://images-ext-2.discordapp.net/external/m4I6ErOVAmLxVm1FYYvmizbhRu-JfoqJWwc5-LtpQUE/%3Fa%3D1%26bg%3Dhttps%3A%2F%2Fcdn.discordapp.com%2Fattachments%2F953739118406410240%2F963525454747283476%2Funknown.png/http/otfbm.io/22x25/%40c70d/S22Mb-Fritz?width=595&height=669</a></em> <img class="chatlog__reference-icon" src="https://cdn.jsdelivr.net/gh/mahtoid/DiscordUtils@master/discord-attachment.svg">
@@ -5427,7 +5477,7 @@ Was originally too big so I had to scale it down, means that the squares are <em
         </div>
 </div>
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 12 April 2022 07:57 PM">12-04-2022 19:57</span>
                 </div>
@@ -5457,7 +5507,7 @@ Was originally too big so I had to scale it down, means that the squares are <em
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 15 April 2022 04:23 AM">15-04-2022 04:23</span>
                 </div>
@@ -5545,7 +5595,7 @@ Was originally too big so I had to scale it down, means that the squares are <em
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 15 April 2022 04:54 AM">15-04-2022 04:54</span>
                 </div>
@@ -5629,12 +5679,12 @@ Easily changeable size, original image has no grid
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 21 April 2022 07:04 PM">21-04-2022 19:04</span>
                 </div>
@@ -5669,7 +5719,7 @@ Easily changeable size, original image has no grid
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Wednesday, 27 April 2022 01:56 PM">27-04-2022 13:56</span>
                 </div>
@@ -5773,12 +5823,12 @@ Easily changeable size, original image has no grid
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  3 May 2022 08:16 PM">03-05-2022 20:16</span>
                 </div>
@@ -5818,7 +5868,7 @@ For 1/2 size of the screen shot below, use this instead:
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Wednesday,  4 May 2022 05:00 PM">04-05-2022 17:00</span>
                 </div>
@@ -5927,7 +5977,7 @@ For 1/2 size of the screen shot below, use this instead:
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Wednesday,  4 May 2022 05:05 PM">04-05-2022 17:05</span>
                 </div>
@@ -6031,12 +6081,12 @@ For 1/2 size of the screen shot below, use this instead:
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 12 May 2022 01:13 AM">12-05-2022 01:13</span>
                 </div>
@@ -6101,12 +6151,12 @@ NIGHT
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 12 May 2022 01:23 AM">12-05-2022 01:23</span>
                 </div>
@@ -6154,7 +6204,7 @@ UNDERWATER
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 19 May 2022 02:38 AM">19-05-2022 02:38</span>
                 </div>
@@ -6265,7 +6315,7 @@ UNDERWATER
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 19 May 2022 09:57 PM">19-05-2022 21:57</span>
                 </div>
@@ -6351,7 +6401,7 @@ UNDERWATER
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 20 May 2022 11:12 PM">20-05-2022 23:12</span>
                 </div>
@@ -6439,7 +6489,7 @@ UNDERWATER
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday, 21 May 2022 06:49 PM">21-05-2022 18:49</span>
                 </div>
@@ -6527,7 +6577,7 @@ UNDERWATER
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Monday, 23 May 2022 04:27 AM">23-05-2022 04:27</span>
                 </div>
@@ -6556,7 +6606,7 @@ UNDERWATER
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/dab201100b94cc5c9a9f7912dd2dcbdd.png?size=1024"  data-user-id="325496160775045122" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/3feb8311bfb4045ae6fc97f3e4c27b25.png?size=1024"  data-user-id="325496160775045122" />
             </div>
             <div class="chatlog__message-primary">
                 
@@ -6650,7 +6700,7 @@ UNDERWATER
                 <div class="chatlog__followup">
         <img class="chatlog__followup-avatar" src="https://cdn.discordapp.com/avatars/188618533280808962/a_8c97c86fd22569b1c1ac7fd39c0f498d.gif?size=1024" alt="Avatar" loading="lazy" data-user-id="188618533280808962">
         
-        <div class="chatlog__followup-author" style="color: #a104ef;" title="grizzlywhiskey#8888" data-user-id="188618533280808962">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ</div>
+        <div class="chatlog__followup-author" style="color: #a104ef;" title="grizzlywhiskey#8888" data-user-id="188618533280808962">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ</div>
         <div class="chatlog__followup-content">
             <span class="chatlog__reference-link" onclick="scrollToMessage(event, '946867047512551514')">
                     <em><a href="https://cdn.discordapp.com/attachments/936044046948925440/941750032552566834/temmp_map.jpeg">https://cdn.discordapp.com/attachments/936044046948925440/941750032552566834/temmp_map.jpeg</a></em> <img class="chatlog__reference-icon" src="https://cdn.jsdelivr.net/gh/mahtoid/DiscordUtils@master/discord-attachment.svg">
@@ -6658,7 +6708,7 @@ UNDERWATER
         </div>
 </div>
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 26 May 2022 07:10 PM">26-05-2022 19:10</span>
                 </div>
@@ -6689,7 +6739,7 @@ UNDERWATER
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 26 May 2022 08:33 PM">26-05-2022 20:33</span>
                 </div>
@@ -6753,7 +6803,7 @@ UNDERWATER
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Monday, 13 June 2022 11:21 PM">13-06-2022 23:21</span>
                 </div>
@@ -6813,12 +6863,12 @@ UNDERWATER
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 24 June 2022 08:01 PM">24-06-2022 20:01</span>
                 </div>
@@ -6882,7 +6932,7 @@ UNDERWATER
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Sunday, 10 July 2022 09:40 PM">10-07-2022 21:40</span>
                 </div>
@@ -6915,7 +6965,7 @@ No tentacles
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Sunday, 10 July 2022 09:52 PM">10-07-2022 21:52</span>
                 </div>
@@ -7147,7 +7197,7 @@ No tentacles
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Sunday, 10 July 2022 10:27 PM">10-07-2022 22:27</span>
                 </div>
@@ -7204,7 +7254,7 @@ No tentacles
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Wednesday, 13 July 2022 12:44 AM">13-07-2022 00:44</span>
                 </div>
@@ -7285,12 +7335,12 @@ No tentacles
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 14 July 2022 09:24 PM">14-07-2022 21:24</span>
                 </div>
@@ -7321,12 +7371,12 @@ Do we need another? Yeah sure. It&#x27;s Barovia. Relatively large. Nice wrought
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 28 July 2022 06:53 PM">28-07-2022 18:53</span>
                 </div>
@@ -7361,7 +7411,7 @@ Do we need another? Yeah sure. It&#x27;s Barovia. Relatively large. Nice wrought
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 29 July 2022 09:56 PM">29-07-2022 21:56</span>
                 </div>
@@ -7711,7 +7761,7 @@ Do we need another? Yeah sure. It&#x27;s Barovia. Relatively large. Nice wrought
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 29 July 2022 10:18 PM">29-07-2022 22:18</span>
                 </div>
@@ -7820,7 +7870,7 @@ Do we need another? Yeah sure. It&#x27;s Barovia. Relatively large. Nice wrought
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Sunday, 31 July 2022 11:58 PM">31-07-2022 23:58</span>
                 </div>
@@ -7969,7 +8019,7 @@ Do we need another? Yeah sure. It&#x27;s Barovia. Relatively large. Nice wrought
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Monday,  1 August 2022 12:07 AM">01-08-2022 00:07</span>
                 </div>
@@ -8260,7 +8310,7 @@ Do we need another? Yeah sure. It&#x27;s Barovia. Relatively large. Nice wrought
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Monday,  1 August 2022 01:35 AM">01-08-2022 01:35</span>
                 </div>
@@ -8409,7 +8459,7 @@ Do we need another? Yeah sure. It&#x27;s Barovia. Relatively large. Nice wrought
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Wednesday, 10 August 2022 12:15 AM">10-08-2022 00:15</span>
                 </div>
@@ -8536,7 +8586,7 @@ For adds to spawn from at g8, q17, g25 or wherever you’d like.</span>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday, 20 August 2022 03:41 AM">20-08-2022 03:41</span>
                 </div>
@@ -8747,7 +8797,7 @@ For adds to spawn from at g8, q17, g25 or wherever you’d like.</span>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Sunday, 21 August 2022 04:31 AM">21-08-2022 04:31</span>
                 </div>
@@ -8825,7 +8875,7 @@ For adds to spawn from at g8, q17, g25 or wherever you’d like.</span>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 23 August 2022 01:20 AM">23-08-2022 01:20</span>
                 </div>
@@ -8920,12 +8970,12 @@ For adds to spawn from at g8, q17, g25 or wherever you’d like.</span>
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 26 August 2022 02:55 PM">26-08-2022 14:55</span>
                 </div>
@@ -8957,13 +9007,13 @@ They are all the same size, so I&#x27;m posting <em>one</em> as a representative
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 <div class='chatlog__followup-symbol'></div>
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 <div class="chatlog__followup">
-        <img class="chatlog__followup-avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024" alt="Avatar" loading="lazy" data-user-id="278245170208571394">
+        <img class="chatlog__followup-avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024" alt="Avatar" loading="lazy" data-user-id="278245170208571394">
         
-        <div class="chatlog__followup-author" style="color: #007eff;" title="benubu#7644" data-user-id="278245170208571394">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4</div>
+        <div class="chatlog__followup-author" style="color: #007eff;" title="benubu#7644" data-user-id="278245170208571394">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4</div>
         <div class="chatlog__followup-content">
             <span class="chatlog__reference-link" onclick="scrollToMessage(event, '1012737019639758898')">
                     <em><strong><span style="text-decoration: underline">Colosseum of Challenges</span></strong> 
@@ -8975,7 +9025,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         </div>
 </div>
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 26 August 2022 02:56 PM">26-08-2022 14:56</span>
                 </div>
@@ -9024,13 +9074,13 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 <div class='chatlog__followup-symbol'></div>
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 <div class="chatlog__followup">
-        <img class="chatlog__followup-avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024" alt="Avatar" loading="lazy" data-user-id="278245170208571394">
+        <img class="chatlog__followup-avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024" alt="Avatar" loading="lazy" data-user-id="278245170208571394">
         
-        <div class="chatlog__followup-author" style="color: #007eff;" title="benubu#7644" data-user-id="278245170208571394">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4</div>
+        <div class="chatlog__followup-author" style="color: #007eff;" title="benubu#7644" data-user-id="278245170208571394">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4</div>
         <div class="chatlog__followup-content">
             <span class="chatlog__reference-link" onclick="scrollToMessage(event, '1012737019639758898')">
                     <em><strong><span style="text-decoration: underline">Colosseum of Challenges</span></strong> 
@@ -9042,7 +9092,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         </div>
 </div>
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 26 August 2022 02:56 PM">26-08-2022 14:56</span>
                 </div>
@@ -9094,7 +9144,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
                 <div class="chatlog__followup">
         <img class="chatlog__followup-avatar" src="https://cdn.discordapp.com/avatars/490629245245063194/125fafdf2c24d22d73a6d0f9a07dae21.png?size=1024" alt="Avatar" loading="lazy" data-user-id="490629245245063194">
         
-        <div class="chatlog__followup-author" style="color: #007eff;" title="Ricapath#9411" data-user-id="490629245245063194">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6</div>
+        <div class="chatlog__followup-author" style="color: #007eff;" title="Ricapath#9411" data-user-id="490629245245063194">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6</div>
         <div class="chatlog__followup-content">
             <span class="chatlog__reference-link" onclick="scrollToMessage(event, '977644286919208981')">
                     <em><strong><span style="text-decoration: underline">Another Forest</span></strong> 
@@ -9104,7 +9154,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         </div>
 </div>
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Wednesday, 31 August 2022 02:34 AM">31-08-2022 02:34</span>
                 </div>
@@ -9166,12 +9216,12 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday,  3 September 2022 01:34 AM">03-09-2022 01:34</span>
                 </div>
@@ -9206,7 +9256,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday,  3 September 2022 02:23 PM">03-09-2022 14:23</span>
                 </div>
@@ -9231,12 +9281,12 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday,  3 September 2022 02:28 PM">03-09-2022 14:28</span>
                 </div>
@@ -9265,9 +9315,9 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             </div>
             <div class="chatlog__message-primary">
                 <div class="chatlog__followup">
-        <img class="chatlog__followup-avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024" alt="Avatar" loading="lazy" data-user-id="278245170208571394">
+        <img class="chatlog__followup-avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024" alt="Avatar" loading="lazy" data-user-id="278245170208571394">
         
-        <div class="chatlog__followup-author" style="color: #007eff;" title="benubu#7644" data-user-id="278245170208571394">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4</div>
+        <div class="chatlog__followup-author" style="color: #007eff;" title="benubu#7644" data-user-id="278245170208571394">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4</div>
         <div class="chatlog__followup-content">
             <span class="chatlog__reference-link" onclick="scrollToMessage(event, '1015629259588501635')">
                     <em>No idea? Sorry if it's a repeat.</em> 
@@ -9275,7 +9325,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         </div>
 </div>
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday,  3 September 2022 04:10 PM">03-09-2022 16:10</span>
                 </div>
@@ -9300,12 +9350,12 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday,  3 September 2022 04:11 PM">03-09-2022 16:11</span>
                 </div>
@@ -9335,7 +9385,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Monday, 12 September 2022 04:22 AM">12-09-2022 04:22</span>
                 </div>
@@ -9442,7 +9492,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/dab201100b94cc5c9a9f7912dd2dcbdd.png?size=1024"  data-user-id="325496160775045122" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/3feb8311bfb4045ae6fc97f3e4c27b25.png?size=1024"  data-user-id="325496160775045122" />
             </div>
             <div class="chatlog__message-primary">
                 
@@ -9534,7 +9584,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  4 October 2022 10:42 PM">04-10-2022 22:42</span>
                 </div>
@@ -9593,12 +9643,12 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 10 November 2022 11:08 PM">10-11-2022 23:08</span>
                 </div>
@@ -9633,7 +9683,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday, 19 November 2022 05:32 PM">19-11-2022 17:32</span>
                 </div>
@@ -9663,7 +9713,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Nixkev#5015" data-user-id="340987741393387520" style="color: #007eff;">(Nix) Azrielia⁵ Strahd⁶  -5<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Nixkev#5015" data-user-id="340987741393387520" style="color: #007eff;">(Nix) Azrielia⁵ Strahd⁶  -4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Monday, 21 November 2022 04:13 AM">21-11-2022 04:13</span>
                 </div>
@@ -9775,18 +9825,18 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  6 December 2022 01:29 AM">06-12-2022 01:29</span>
                 </div>
 
                 <div class="chatlog__content chatlog__markdown" data-message-id="1049497686505685064" id="message-1049497686505685064">
-                    <span class="chatlog__markdown-preserve"><span class="mention" title="238535452775284736">@CreamPuff [Georg⁶|Belvedere⁴] -7</span></span>
+                    <span class="chatlog__markdown-preserve"><span class="mention" title="238535452775284736">@CreamPuff [Georg⁸|Belvedere⁵] -7</span></span>
 
 
                     
@@ -9810,7 +9860,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="CreamPuff#9143" data-user-id="238535452775284736" style="color: #ff6c00;">CreamPuff [Georg⁶|Belvedere⁴] -7<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="CreamPuff#9143" data-user-id="238535452775284736" style="color: #ff6c00;">CreamPuff [Georg⁸|Belvedere⁵] -7<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  6 December 2022 01:30 AM">06-12-2022 01:30</span>
                 </div>
@@ -9835,12 +9885,12 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  6 December 2022 01:33 AM">06-12-2022 01:33</span>
                 </div>
@@ -9899,7 +9949,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Jennifer#1000" data-user-id="146660543506153472" style="color: #ff6c00;">Jennifer [Ssra⁹] | [Alnak⁶] -8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Jennifer#1000" data-user-id="146660543506153472" style="color: #ff6c00;">Jennifer [Ssra¹⁰] | [Alnak⁶] -8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  6 December 2022 01:50 AM">06-12-2022 01:50</span>
                 </div>
@@ -10005,12 +10055,12 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  6 December 2022 01:58 AM">06-12-2022 01:58</span>
                 </div>
@@ -10040,7 +10090,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  6 December 2022 10:23 PM">06-12-2022 22:23</span>
                 </div>
@@ -10226,7 +10276,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/dab201100b94cc5c9a9f7912dd2dcbdd.png?size=1024"  data-user-id="325496160775045122" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/3feb8311bfb4045ae6fc97f3e4c27b25.png?size=1024"  data-user-id="325496160775045122" />
             </div>
             <div class="chatlog__message-primary">
                 
@@ -10314,7 +10364,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/dab201100b94cc5c9a9f7912dd2dcbdd.png?size=1024"  data-user-id="325496160775045122" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/3feb8311bfb4045ae6fc97f3e4c27b25.png?size=1024"  data-user-id="325496160775045122" />
             </div>
             <div class="chatlog__message-primary">
                 
@@ -10407,7 +10457,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Jennifer#1000" data-user-id="146660543506153472" style="color: #ff6c00;">Jennifer [Ssra⁹] | [Alnak⁶] -8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Jennifer#1000" data-user-id="146660543506153472" style="color: #ff6c00;">Jennifer [Ssra¹⁰] | [Alnak⁶] -8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  3 January 2023 05:50 PM">03-01-2023 17:50</span>
                 </div>
@@ -10494,7 +10544,7 @@ They are all the same size, so I'm posting <em>one</em> as a representative exam
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  3 January 2023 10:03 PM">03-01-2023 22:03</span>
                 </div>
@@ -10560,12 +10610,12 @@ Phase 8 <span class="pre pre-inline">!map -attach DM -bg https://i.postimg.cc/fR
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 12 January 2023 06:48 PM">12-01-2023 18:48</span>
                 </div>
@@ -10617,12 +10667,12 @@ A phased garden map, in four phases.
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday, 14 January 2023 12:35 AM">14-01-2023 00:35</span>
                 </div>
@@ -10673,7 +10723,7 @@ A phased garden map, in four phases.
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/dab201100b94cc5c9a9f7912dd2dcbdd.png?size=1024"  data-user-id="325496160775045122" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/3feb8311bfb4045ae6fc97f3e4c27b25.png?size=1024"  data-user-id="325496160775045122" />
             </div>
             <div class="chatlog__message-primary">
                 
@@ -10724,12 +10774,12 @@ A phased garden map, in four phases.
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 20 January 2023 04:31 PM">20-01-2023 16:31</span>
                 </div>
@@ -10781,7 +10831,7 @@ Is the scale too big? You can use the settings instead for 3/4 size:
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="CreamPuff#9143" data-user-id="238535452775284736" style="color: #ff6c00;">CreamPuff [Georg⁶|Belvedere⁴] -7<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="CreamPuff#9143" data-user-id="238535452775284736" style="color: #ff6c00;">CreamPuff [Georg⁸|Belvedere⁵] -7<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday, 26 January 2023 06:40 AM">26-01-2023 06:40</span>
                 </div>
@@ -10882,7 +10932,7 @@ Is the scale too big? You can use the settings instead for 3/4 size:
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/dab201100b94cc5c9a9f7912dd2dcbdd.png?size=1024"  data-user-id="325496160775045122" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/325496160775045122/3feb8311bfb4045ae6fc97f3e4c27b25.png?size=1024"  data-user-id="325496160775045122" />
             </div>
             <div class="chatlog__message-primary">
                 
@@ -10975,7 +11025,7 @@ Is the scale too big? You can use the settings instead for 3/4 size:
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Jennifer#1000" data-user-id="146660543506153472" style="color: #ff6c00;">Jennifer [Ssra⁹] | [Alnak⁶] -8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Jennifer#1000" data-user-id="146660543506153472" style="color: #ff6c00;">Jennifer [Ssra¹⁰] | [Alnak⁶] -8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 27 January 2023 07:22 AM">27-01-2023 07:22</span>
                 </div>
@@ -11113,7 +11163,7 @@ Is the scale too big? You can use the settings instead for 3/4 size:
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Jennifer#1000" data-user-id="146660543506153472" style="color: #ff6c00;">Jennifer [Ssra⁹] | [Alnak⁶] -8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Jennifer#1000" data-user-id="146660543506153472" style="color: #ff6c00;">Jennifer [Ssra¹⁰] | [Alnak⁶] -8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Sunday, 12 February 2023 09:33 PM">12-02-2023 21:33</span>
                 </div>
@@ -11149,7 +11199,7 @@ Is the scale too big? You can use the settings instead for 3/4 size:
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Monday, 20 February 2023 05:04 AM">20-02-2023 05:04</span>
                 </div>
@@ -11252,7 +11302,7 @@ Phase 9
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Esh#6905" data-user-id="420991658050584586" style="color: #ff6c00;">Esh [Kan⁷ | Thurrim⁴] EST -4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Esh#6905" data-user-id="420991658050584586" style="color: #ff6c00;">Esh [Kan⁷ | Thurrim⁵] EST -4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 28 February 2023 10:50 PM">28-02-2023 22:50</span>
                 </div>
@@ -11319,7 +11369,7 @@ Phase 9
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Esh#6905" data-user-id="420991658050584586" style="color: #ff6c00;">Esh [Kan⁷ | Thurrim⁴] EST -4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Esh#6905" data-user-id="420991658050584586" style="color: #ff6c00;">Esh [Kan⁷ | Thurrim⁵] EST -4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 28 February 2023 10:54 PM">28-02-2023 22:54</span>
                 </div>
@@ -11348,12 +11398,12 @@ Phase 9
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday,  3 March 2023 07:57 PM">03-03-2023 19:57</span>
                 </div>
@@ -11410,12 +11460,12 @@ Phased map. Each round, set it to the next background in the sequence.
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Saturday, 11 March 2023 03:45 PM">11-03-2023 15:45</span>
                 </div>
@@ -11454,7 +11504,7 @@ Phased map. Each round, set it to the next background in the sequence.
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday, 14 March 2023 07:45 PM">14-03-2023 19:45</span>
                 </div>
@@ -11515,7 +11565,7 @@ Phased map. Each round, set it to the next background in the sequence.
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Nixkev#5015" data-user-id="340987741393387520" style="color: #007eff;">(Nix) Azrielia⁵ Strahd⁶  -5<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Nixkev#5015" data-user-id="340987741393387520" style="color: #007eff;">(Nix) Azrielia⁵ Strahd⁶  -4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Sunday, 19 March 2023 05:08 PM">19-03-2023 17:08</span>
                 </div>
@@ -11550,7 +11600,7 @@ Phased map. Each round, set it to the next background in the sequence.
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="grizzlywhiskey#8888" data-user-id="188618533280808962" style="color: #a104ef;">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/906628260467712000/31bf920316678ede8bafd0c99871c92f.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 24 March 2023 07:56 PM">24-03-2023 19:56</span>
                 </div>
@@ -11631,12 +11681,12 @@ Phased map. Each round, set it to the next background in the sequence.
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Friday, 24 March 2023 07:58 PM">24-03-2023 19:58</span>
                 </div>
@@ -11661,12 +11711,12 @@ Phased map. Each round, set it to the next background in the sequence.
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Monday, 10 April 2023 08:33 PM">10-04-2023 20:33</span>
                 </div>
@@ -11714,13 +11764,13 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="CreamPuff#9143" data-user-id="238535452775284736" style="color: #ff6c00;">CreamPuff [Georg⁶|Belvedere⁴] -7<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="CreamPuff#9143" data-user-id="238535452775284736" style="color: #ff6c00;">CreamPuff [Georg⁸|Belvedere⁵] -7<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  2 May 2023 03:47 AM">02-05-2023 03:47</span>
                 </div>
 
                 <div class="chatlog__content chatlog__markdown" data-message-id="1102803640965660672" id="message-1102803640965660672">
-                    <span class="chatlog__markdown-preserve"><span class="mention" title="538460409351503904">@Threnchcoat [Whizzerd 5] -7</span> <span class="mention" title="204420102593052672">@Kami | Yuki³ | JST +9</span> in case for your first one you don&#x27;t want to make a new map, you can just use one of the ones here <img class="emoji emoji--small" src="https://twemoji.maxcdn.com/v/latest/72x72/1f642.png" alt="🙂" title="Slightly Smiling Face" aria-label="Emoji: Slightly Smiling Face"> i sometimes draw mission inspirations from the map first!</span>
+                    <span class="chatlog__markdown-preserve"><span class="mention" title="538460409351503904">@Threnchcoat [Whizz 6|Mira 3 ] -7</span> <span class="mention" title="204420102593052672">@Kami | Yuki⁵ | JST +9</span> in case for your first one you don&#x27;t want to make a new map, you can just use one of the ones here <img class="emoji emoji--small" src="https://twemoji.maxcdn.com/v/latest/72x72/1f642.png" alt="🙂" title="Slightly Smiling Face" aria-label="Emoji: Slightly Smiling Face"> i sometimes draw mission inspirations from the map first!</span>
 
 
                     
@@ -11748,7 +11798,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="Esh#6905" data-user-id="420991658050584586" style="color: #ff6c00;">Esh [Kan⁷ | Thurrim⁴] EST -4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="Esh#6905" data-user-id="420991658050584586" style="color: #ff6c00;">Esh [Kan⁷ | Thurrim⁵] EST -4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608910898069544/92e8b11dfdf7632098f0db546dc9130d.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Tuesday,  2 May 2023 01:50 PM">02-05-2023 13:50</span>
                 </div>
@@ -11773,12 +11823,12 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
         <div class="chatlog__message">
             <div class="chatlog__message-aside">
                 
-                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024"  data-user-id="278245170208571394" />
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
             </div>
             <div class="chatlog__message-primary">
                 
                 <div class="chatlog__header">
-                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
                     
                     <span class="chatlog__timestamp" data-timestamp="Thursday,  4 May 2023 07:48 PM">04-05-2023 19:48</span>
                 </div>
@@ -11831,12 +11881,192 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
                             </div>
                         </div>
                     </div>
+            </div></div><div class="chatlog__message-group">
+    <div id="chatlog__message-container-1105736742671237120" class="chatlog__message-container" data-message-id="1105736742671237120">
+        <div class="chatlog__message">
+            <div class="chatlog__message-aside">
+                
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024"  data-user-id="278245170208571394" />
+            </div>
+            <div class="chatlog__message-primary">
+                
+                <div class="chatlog__header">
+                    <span class="chatlog__author-name" title="benubu#7644" data-user-id="278245170208571394" style="color: #007eff;">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/905608789795962890/bf07767aaa4b67cf03167d5e3b77c912.png?size=1024' alt='Role Icon'></span>
+                    
+                    <span class="chatlog__timestamp" data-timestamp="Wednesday, 10 May 2023 06:03 AM">10-05-2023 06:03</span>
+                </div>
+
+                <div class="chatlog__content chatlog__markdown" data-message-id="1105736742671237120" id="message-1105736742671237120">
+                    <span class="chatlog__markdown-preserve"><strong><span style="text-decoration: underline">BLOODY TEMPLE</span></strong> 
+ 
+ 
+<div class="pre pre--multiline nohighlight">!map -bg https://cdn.discordapp.com/attachments/1101175477579808873/1105631625804521472/Nightmare_Dragon_Lair_Battlemap_29x64_60dpi.jpg -mapsize 29x64 -options dec60</div></span>
+<span class="chatlog__reference-edited-timestamp" title="Wednesday, 10 May 2023 06:03 AM">(edited)</span>
+
+                    <div class=chatlog__attachment>
+    <a href=https://media.discordapp.net/attachments/936044046948925440/1105736742755119165/Untitled.jpg><img class=chatlog__attachment-thumbnail src=https://media.discordapp.net/attachments/936044046948925440/1105736742755119165/Untitled.jpg></a>
+</div>
+
+
+                    
+
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="chatlog__message-group">
+    <div id="chatlog__message-container-1106272297578401954" class="chatlog__message-container" data-message-id="1106272297578401954">
+        <div class="chatlog__message">
+            <div class="chatlog__message-aside">
+                
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/406999875289612303/6c98a3a42bd95e76abe8d2b4c30ae9a2.png?size=1024"  data-user-id="406999875289612303" />
+            </div>
+            <div class="chatlog__message-primary">
+                
+                <div class="chatlog__header">
+                    <span class="chatlog__author-name" title="Wiz#4545" data-user-id="406999875289612303" style="color: #007eff;">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    
+                    <span class="chatlog__timestamp" data-timestamp="Thursday, 11 May 2023 05:31 PM">11-05-2023 17:31</span>
+                </div>
+
+                <div class="chatlog__content chatlog__markdown" data-message-id="1106272297578401954" id="message-1106272297578401954">
+                    <span class="chatlog__markdown-preserve"><strong><span style="text-decoration: underline">Inside the Tomb</span></strong> 
+ 
+<span class="pre pre-inline">!map -attach DM -mapsize 12x16 -options dec48 -bg https://i.postimg.cc/28Yt1t7p/0078-E56-B-81-AC-4-D69-9073-281-B1-D5674-DF.jpg</span></span>
+<span class="chatlog__reference-edited-timestamp" title="Thursday, 11 May 2023 05:31 PM">(edited)</span>
+
+                    <div class=chatlog__attachment>
+    <a href=https://media.discordapp.net/attachments/936044046948925440/1106272297695858759/IMG_6701.jpg><img class=chatlog__attachment-thumbnail src=https://media.discordapp.net/attachments/936044046948925440/1106272297695858759/IMG_6701.jpg></a>
+</div>
+
+
+                    
+
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="chatlog__message-group">
+    <div id="chatlog__message-container-1106957054637244610" class="chatlog__message-container" data-message-id="1106957054637244610">
+        <div class="chatlog__message">
+            <div class="chatlog__message-aside">
+                
+                <img class="chatlog__avatar" src="https://cdn.discordapp.com/avatars/490629245245063194/125fafdf2c24d22d73a6d0f9a07dae21.png?size=1024"  data-user-id="490629245245063194" />
+            </div>
+            <div class="chatlog__message-primary">
+                
+                <div class="chatlog__header">
+                    <span class="chatlog__author-name" title="Ricapath#9411" data-user-id="490629245245063194" style="color: #007eff;">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6<img class='chatlog__role-icon' src='https://cdn.discordapp.com/role-icons/1048482439040864361/6b2f30afdf9ec5fe2a9ec35635e89807.png?size=1024' alt='Role Icon'></span>
+                    
+                    <span class="chatlog__timestamp" data-timestamp="Saturday, 13 May 2023 02:52 PM">13-05-2023 14:52</span>
+                </div>
+
+                <div class="chatlog__content chatlog__markdown" data-message-id="1106957054637244610" id="message-1106957054637244610">
+                    <span class="chatlog__markdown-preserve"><strong><span style="text-decoration: underline">Cave Entrance</span></strong></span>
+
+
+                    
+
+                    
+
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+            <div id="chatlog__message-container-1106957088653066320" class="chatlog__message-container" data-message-id="1106957088653066320">
+                    <div class="chatlog__message">
+
+                        <div class="chatlog__message-aside">
+                            <div class="chatlog__short-timestamp" title="Saturday, 13 May 2023 02:52 PM">PM</div>
+                        </div>
+
+                        <div class="chatlog__message-primary">
+                            <div class="chatlog__content chatlog__markdown" data-message-id="1106957088653066320" id="message-1106957088653066320">
+                                <span class="chatlog__markdown-preserve"><span class="pre pre-inline">!map -attach DM -bg https://cdn.discordapp.com/attachments/953739118406410240/1106956236278202368/image.png -mapsize 25x30 -options c70d</span></span>
+
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+            </div>            <div id="chatlog__message-container-1106957126682824835" class="chatlog__message-container" data-message-id="1106957126682824835">
+                    <div class="chatlog__message">
+
+                        <div class="chatlog__message-aside">
+                            <div class="chatlog__short-timestamp" title="Saturday, 13 May 2023 02:52 PM">PM</div>
+                        </div>
+
+                        <div class="chatlog__message-primary">
+                            <div class="chatlog__content chatlog__markdown" data-message-id="1106957126682824835" id="message-1106957126682824835">
+                                <span class="chatlog__markdown-preserve"><a href="https://otfbm.io/25x30/@c70d/?a=2&amp;bg=https://cdn.discordapp.com/attachments/953739118406410240/1106956236278202368/image.png">https://otfbm.io/25x30/@c70d/?a=2&amp;bg=https://cdn.discordapp.com/attachments/953739118406410240/1106956236278202368/image.png</a></span>
+
+
+                                
+
+                                <div class=chatlog__embed>
+    <div class=chatlog__embed-color-pill style=background-color:rgba(32,34,37,1)></div>
+    <div class=chatlog__embed-content-container>
+        <div class=chatlog__embed-content>
+            <div class=chatlog__embed-text>
+                
+                
+
+                
+                <div class="chatlog__embed-fields">
+                    
+                </div>
+
+
+                
+
+            </div>
+
+
+
+            <div class="chatlog__embed-thumbnail-container">
+    <a class="chatlog__embed-thumbnail-link" href="https://otfbm.io/25x30/@c70d/?a=2&bg=https://cdn.discordapp.com/attachments/953739118406410240/1106956236278202368/image.png">
+    <img class="chatlog__embed-thumbnail" src="https://otfbm.io/25x30/@c70d/?a=2&bg=https://cdn.discordapp.com/attachments/953739118406410240/1106956236278202368/image.png">
+</a>
+</div>
+
+        </div>
+
+        
+
+    </div>
+</div>
+
+
+
+                                
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
             </div></div>
     </div>
 </div>
 
 <div class="footer">
-    <span class="footer__text">This transcript was generated on  5 May 2023 at 01:01:05 (UTC)</span>
+    <span class="footer__text">This transcript was generated on 30 May 2023 at 23:55:32 (UTC)</span>
 </div>
 
 <div id="context-menu">
@@ -11865,7 +12095,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
         </div>
         <div class="meta__field">
             <div class="meta__title">Total Message Count</div>
-            <div class="meta__value">297</div>
+            <div class="meta__value">303</div>
         </div>
         <div class="meta__field">
             <div class="meta__title">Total Message Participants</div>
@@ -11897,7 +12127,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
         </div>
         <div class="meta__field">
             <div class="meta__title">Message Count</div>
-            <div class="meta__value">13</div>
+            <div class="meta__value">14</div>
         </div>
     </div>
 </div>
@@ -11907,7 +12137,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
          <img src="https://cdn.discordapp.com/avatars/188618533280808962/a_8c97c86fd22569b1c1ac7fd39c0f498d.gif?size=1024" alt="Avatar">
     </div>
     <div class="meta__description">
-        <div class="meta__display-name">GRI̶Z ㅕOctavia¹⁵╎Mish⁹╎Berry⁶ㅑ</div>
+        <div class="meta__display-name">GRI̶Z ㅕOctavia¹⁵╎Mish¹⁰╎Berry⁶ㅑ</div>
         <div class="meta__details">
             <div class="meta__user">grizzlywhiskey</div>
             <div class="meta__discriminator">#8888</div>
@@ -11961,7 +12191,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
          <img src="https://cdn.discordapp.com/avatars/340987741393387520/389eca3098c63bdb068b27743cb73dac.png?size=1024" alt="Avatar">
     </div>
     <div class="meta__description">
-        <div class="meta__display-name">(Nix) Azrielia⁵ Strahd⁶  -5</div>
+        <div class="meta__display-name">(Nix) Azrielia⁵ Strahd⁶  -4</div>
         <div class="meta__details">
             <div class="meta__user">Nixkev</div>
             <div class="meta__discriminator">#5015</div>
@@ -11985,7 +12215,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
 
 <div id="meta-popout-325496160775045122" class="meta-popout">
     <div class="meta__header">
-         <img src="https://cdn.discordapp.com/avatars/325496160775045122/dab201100b94cc5c9a9f7912dd2dcbdd.png?size=1024" alt="Avatar">
+         <img src="https://cdn.discordapp.com/avatars/325496160775045122/3feb8311bfb4045ae6fc97f3e4c27b25.png?size=1024" alt="Avatar">
     </div>
     <div class="meta__description">
         <div class="meta__display-name">The Dungeon Master (Kitch)</div>
@@ -12015,7 +12245,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
          <img src="https://cdn.discordapp.com/avatars/490629245245063194/125fafdf2c24d22d73a6d0f9a07dae21.png?size=1024" alt="Avatar">
     </div>
     <div class="meta__description">
-        <div class="meta__display-name">Ricaᴰᴹ¦Fritz¹⁴¦Mac⁵||-6</div>
+        <div class="meta__display-name">Ricaᴰᴹ¦Fritz¹⁵¦Javit⁸¦Mac⁵||-6</div>
         <div class="meta__details">
             <div class="meta__user">Ricapath</div>
             <div class="meta__discriminator">#9411</div>
@@ -12032,7 +12262,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
         </div>
         <div class="meta__field">
             <div class="meta__title">Message Count</div>
-            <div class="meta__value">52</div>
+            <div class="meta__value">55</div>
         </div>
     </div>
 </div>
@@ -12071,10 +12301,10 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
 
 <div id="meta-popout-278245170208571394" class="meta-popout">
     <div class="meta__header">
-         <img src="https://cdn.discordapp.com/avatars/278245170208571394/1dd196d1ec64c6c5576b9532e4f92157.png?size=1024" alt="Avatar">
+         <img src="https://cdn.discordapp.com/avatars/278245170208571394/515d01ae5a4161ca8b29f70c19fa13a0.png?size=1024" alt="Avatar">
     </div>
     <div class="meta__description">
-        <div class="meta__display-name">BN [Fuji¹¹|Ms.Minne⁸|BJ⁵]-4</div>
+        <div class="meta__display-name">BN [Fuji¹²|Ms.Minne⁸|BJ⁶]-4</div>
         <div class="meta__details">
             <div class="meta__user">benubu</div>
             <div class="meta__discriminator">#7644</div>
@@ -12091,7 +12321,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
         </div>
         <div class="meta__field">
             <div class="meta__title">Message Count</div>
-            <div class="meta__value">40</div>
+            <div class="meta__value">41</div>
         </div>
     </div>
 </div>
@@ -12101,7 +12331,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
          <img src="https://cdn.discordapp.com/avatars/406999875289612303/6c98a3a42bd95e76abe8d2b4c30ae9a2.png?size=1024" alt="Avatar">
     </div>
     <div class="meta__description">
-        <div class="meta__display-name">WIZ(Atamos¹⁰|Sac⁹|Korvin¹⁴)-8</div>
+        <div class="meta__display-name">WIZ(Atamos¹¹ |Sac⁹|Korvin¹⁵)-8</div>
         <div class="meta__details">
             <div class="meta__user">Wiz</div>
             <div class="meta__discriminator">#4545</div>
@@ -12118,7 +12348,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
         </div>
         <div class="meta__field">
             <div class="meta__title">Message Count</div>
-            <div class="meta__value">66</div>
+            <div class="meta__value">67</div>
         </div>
     </div>
 </div>
@@ -12155,7 +12385,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
          <img src="https://cdn.discordapp.com/avatars/238535452775284736/b41491e6c6a4380013c6d04ce5d6eb00.png?size=1024" alt="Avatar">
     </div>
     <div class="meta__description">
-        <div class="meta__display-name">CreamPuff [Georg⁶|Belvedere⁴] -7</div>
+        <div class="meta__display-name">CreamPuff [Georg⁸|Belvedere⁵] -7</div>
         <div class="meta__details">
             <div class="meta__user">CreamPuff</div>
             <div class="meta__discriminator">#9143</div>
@@ -12182,7 +12412,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
          <img src="https://cdn.discordapp.com/guilds/905604470644285460/users/146660543506153472/avatars/319c80a3be7676231ebf37c0a37f6970.png?size=1024" alt="Avatar">
     </div>
     <div class="meta__description">
-        <div class="meta__display-name">Jennifer [Ssra⁹] | [Alnak⁶] -8</div>
+        <div class="meta__display-name">Jennifer [Ssra¹⁰] | [Alnak⁶] -8</div>
         <div class="meta__details">
             <div class="meta__user">Jennifer</div>
             <div class="meta__discriminator">#1000</div>
@@ -12236,7 +12466,7 @@ Use <span class="pre pre-inline">-height ##</span> if you need to use forward an
          <img src="https://cdn.discordapp.com/embed/avatars/0.png" alt="Avatar">
     </div>
     <div class="meta__description">
-        <div class="meta__display-name">Esh [Kan⁷ | Thurrim⁴] EST -4</div>
+        <div class="meta__display-name">Esh [Kan⁷ | Thurrim⁵] EST -4</div>
         <div class="meta__details">
             <div class="meta__user">Esh</div>
             <div class="meta__discriminator">#6905</div>
